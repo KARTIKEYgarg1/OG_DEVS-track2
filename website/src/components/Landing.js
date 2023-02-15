@@ -30,16 +30,16 @@ export const Landing = () => {
               </button>
             </div>
             <div class="container mt-5">
-              <center class="row fs-3">
-                <a href="#" class="col-4 p-2 d-flex flex-column">
+              <center class="row fs-4">
+                <a href="#" class="col-4 p-1 d-flex flex-column">
                   <SiBlockchaindotcom className="ms-auto me-auto"></SiBlockchaindotcom>
                   Blockchain
                 </a>
-                <a href="#" class="col-4 p-2 d-flex flex-column">
+                <a href="#" class="col-4 p-1 d-flex flex-column">
                   <FaFileContract className="ms-auto me-auto"></FaFileContract>
                   IOT
                 </a>
-                <a href="#" class="col-4 p-2 d-flex flex-column">
+                <a href="#" class="col-4 p-1 d-flex flex-column">
                   <FaConnectdevelop className="ms-auto me-auto"></FaConnectdevelop>
                   Dashboard
                 </a>
