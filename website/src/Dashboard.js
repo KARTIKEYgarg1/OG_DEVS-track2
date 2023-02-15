@@ -1,8 +1,20 @@
 import DashboardCard from "./components/DashboardCard";
 import DashboardCardRight from "./components/DashboardCardRight";
 import { DashboardItem } from "./components/DashboardItem";
-
+import { useState } from "react";
+import data from "./components/assets/data.json";
 function Dashboard() {
+  const [domain, setdomain] = useState(data);
+  const handleDomainChange = (e) => {
+    let x = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].part.localeCompare(e.target.value) == 0) {
+        console.log(data[i]);
+        x.push(data[i]);
+      }
+    }
+    setdomain(x);
+  };
   return (
     <div className="container-fluid p-3">
       <div className="row g-5">
@@ -21,17 +33,17 @@ function Dashboard() {
               <select
                 class="input-elevated m-4  form-select form-select-lg mb-3"
                 aria-label=".form-select-lg example"
-                defaultValue={1}
-                // onChange={handleDomainChange}
+                defaultValue="Piston"
+                onChange={handleDomainChange}
               >
-                <option selected>Search</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="Piston">Piston</option>
+                <option value="Stdu">Stud</option>
+                <option value="AirCompressor">AirCompressor</option>
+                <option value="CylinderHead">CylinderHead</option>
               </select>
             </div>
           </div>
-          <DashboardItem />
+          <DashboardItem arr={domain} />
         </div>
         <div className="col-lg-6 col-md-12">
           <DashboardCardRight />
