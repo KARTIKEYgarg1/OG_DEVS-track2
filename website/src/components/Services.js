@@ -1,5 +1,5 @@
 import React from "react";
-
+import { GiPlatform } from "react-icons/gi";
 const Services = () => {
   return (
     <div className="container-fluid p-2">
@@ -7,7 +7,7 @@ const Services = () => {
         <div className="col-lg-7 col-sm-12">
           <div
             id="carouselExampleCaptions"
-            class="carousel slide"
+            class="carousel slide carousel-dark"
             data-bs-ride="carousel"
           >
             <div class="carousel-indicators">
@@ -113,21 +113,92 @@ const Services = () => {
             generator on the Internet. It uses a dictionary of over 200 Latin
             words, combined with a handful of model
           </p>
-          <div class="container mt-5">
-            <center class="row p-3">
-              <a href="#" class="col-6 d-flex flex-column fs-1">
-                <SiBlockchaindotcom className="ms-auto me-auto"></SiBlockchaindotcom>
-                wow dude
-              </a>
-              <a href="#" class="col-6 d-flex flex-column fs-1">
-                <FaFileContract className="ms-auto me-auto"></FaFileContract>
-                wow dude
-              </a>
-              <a href="#" class="col-12 d-flex flex-column fs-1">
-                <FaConnectdevelop className="ms-auto me-auto"></FaConnectdevelop>
-                wow dude
-              </a>
-            </center>
+        </div>
+      </div>
+      <div className="container mt-5">
+        <h3>What we serve</h3>
+        <div className="row">
+          <div className="col-lg-6 row g-3">
+            <div className="col-2 fs-2">
+              <GiPlatform />
+            </div>
+            <div className="col-10">
+              <h5>Platform</h5>
+              <p>
+                Incubation of 20+ best-in-class blockchain platforms and
+                solutions through a combination of in-house and partner
+                platforms
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 row g-3">
+            <div className="col-2 fs-2">
+              <GiPlatform />
+            </div>
+            <div className="col-10">
+              <h5>Blockchain Marketplace</h5>
+              <p>
+                Incubation of 20+ best-in-class blockchain platforms and
+                solutions through a combination of in-house and partner
+                platforms
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-6 row g-3">
+            <div className="col-2 fs-2">
+              <GiPlatform />
+            </div>
+            <div className="col-10">
+              <h5>IOT</h5>
+              <p>
+                Incubation of 20+ best-in-class blockchain platforms and
+                solutions through a combination of in-house and partner
+                platforms
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 row g-3">
+            <div className="col-2 fs-2">
+              <GiPlatform />
+            </div>
+            <div className="col-10">
+              <h5>Tracability</h5>
+              <p>
+                Incubation of 20+ best-in-class blockchain platforms and
+                solutions through a combination of in-house and partner
+                platforms
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-6 row g-3">
+            <div className="col-2 fs-2">
+              <GiPlatform />
+            </div>
+            <div className="col-10">
+              <h5>Transparency</h5>
+              <p>
+                Incubation of 20+ best-in-class blockchain platforms and
+                solutions through a combination of in-house and partner
+                platforms
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 row g-3">
+            <div className="col-2 fs-2">
+              <GiPlatform />
+            </div>
+            <div className="col-10">
+              <h5>Authentication</h5>
+              <p>
+                Incubation of 20+ best-in-class blockchain platforms and
+                solutions through a combination of in-house and partner
+                platforms
+              </p>
+            </div>
           </div>
         </div>
       </div>

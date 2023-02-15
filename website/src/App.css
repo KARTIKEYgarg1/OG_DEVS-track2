@@ -5,3 +5,19 @@
 * {
   font-family: "Comfortaa", cursive;
 }
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  transition: 0.1s;
+}
+a img {
+  transition: 0.1s;
+  overflow: hidden;
+}
+a:hover {
+  color: var(--base);
+}
+a:hover img {
+  transform: scale(1.1);
+}

@@ -1,4 +1,6 @@
 import React from "react";
+import { SiBlockchaindotcom } from "react-icons/si";
+import { FaFileContract, FaConnectdevelop } from "react-icons/fa";
 
 export const Landing = () => {
   return (
@@ -27,6 +29,22 @@ export const Landing = () => {
               <button className="btn btn-success w-25 text-nowrap">
                 Contact me
               </button>
+            </div>
+            <div class="container mt-5">
+              <center class="row fs-3">
+                <a href="#" class="col-4 p-2 d-flex flex-column">
+                  <SiBlockchaindotcom className="ms-auto me-auto"></SiBlockchaindotcom>
+                  Blockchain
+                </a>
+                <a href="#" class="col-4 p-2 d-flex flex-column">
+                  <FaFileContract className="ms-auto me-auto"></FaFileContract>
+                  IOT
+                </a>
+                <a href="#" class="col-4 p-2 d-flex flex-column">
+                  <FaConnectdevelop className="ms-auto me-auto"></FaConnectdevelop>
+                  Dashboard
+                </a>
+              </center>
             </div>
           </div>
         </div>
