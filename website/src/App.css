@@ -21,3 +21,31 @@ a:hover {
 a:hover img {
   transform: scale(1.1);
 }
+#dashboard-card {
+  background: rgb(20, 164, 77);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(20, 164, 77, 1) 80%,
+    rgba(247, 247, 247, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(20, 164, 77, 1) 80%,
+    rgba(247, 247, 247, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(20, 164, 77, 1) 80%,
+    rgba(247, 247, 247, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14a44d",endColorstr="#f7f7f7",GradientType=1);
+  width: 100%;
+  padding: 50px;
+  height: 40vh;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+#dashboard-card span {
+  background: white;
+  padding: 20px;
+}

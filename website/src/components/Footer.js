@@ -1,7 +1,7 @@
 import "./assets/a.css";
 import { SlCallIn } from "react-icons/sl";
 import { SiMailchimp } from "react-icons/si";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <div className="c" data-aos="fade-in">
@@ -30,16 +30,16 @@ export const Footer = () => {
             ideas happen.
             <br /> You can also contact me through this form
           </p>
-          {/* <Link
+          <Link
             className="btn btn-success btn-lg"
             name="submit"
             type="submit"
             id="submitButton"
             style={{ width: "fit-content" }}
-            to="connect"
+            to="dashboard"
           >
             Send message
-          </Link> */}
+          </Link>
         </div>
       </div>
     </div>

@@ -19,10 +19,10 @@ export const Landing = () => {
               popularised in the 1960s with the release of Letraset sheets
               containing
             </p>
-            <div class="d-flex">
+            <div class="d-flex pt-5 pb-3">
               <input
                 type="text"
-                class="form-control w-75"
+                class="form-control h-100 w-75"
                 placeholder="First name"
                 aria-label="First name"
               />
