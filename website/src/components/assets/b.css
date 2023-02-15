@@ -34,7 +34,7 @@ input {
   background-color: white;
 }
 .ripple:hover {
-  background: #0336b7 radial-gradient(circle, transparent 1%, #0336b7 1%)
+  background: yellow radial-gradient(circle, transparent 1%, yellow 1%)
     center/15000%;
   text-shadow: 1px 1px 7px #030303;
 }

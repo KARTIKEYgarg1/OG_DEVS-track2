@@ -2,7 +2,7 @@ import React from "react";
 import "./assets/b.css";
 const DashboardCard = () => {
   return (
-    <div className="container" id="dashboard-card">
+    <div className="container dashboard-card">
       <div className="row">
         <div className="col-3 text-end">
           <span>1</span>
