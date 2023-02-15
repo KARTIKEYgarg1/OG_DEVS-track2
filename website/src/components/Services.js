@@ -2,6 +2,8 @@ import React from "react";
 import { GiTechnoHeart, GiPlatform } from "react-icons/gi";
 import { FiLayers } from "react-icons/fi";
 import { CiBoxes } from "react-icons/ci";
+
+import img1 from "./assets/img1.jpg";
 const Services = () => {
   return (
     <div className="container-fluid p-2" id="services">
@@ -37,43 +39,20 @@ const Services = () => {
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="https://www.deccanherald.com/sites/dh/files/articleimages/2021/02/01/download-945981-1612165441.png"
+                  src="https://cdn.shopify.com/s/files/1/1246/6441/files/How_RFID_works_chart.jpg?v=1633467215%0A"
                   class="d-block w-100"
                   alt="..."
                 />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>
-                    Some representative placeholder content for the first slide.
-                  </p>
-                </div>
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://5.imimg.com/data5/JS/BG/NE/SELLER-7700072/leyland-spares-500x500.png"
+                  src="https://cdn.corporatefinanceinstitute.com/assets/supply-chain.jpeg"
                   class="d-block w-100"
                   alt="..."
                 />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>
-                    Some representative placeholder content for the second
-                    slide.
-                  </p>
-                </div>
               </div>
               <div class="carousel-item">
-                <img
-                  src="https://1000logos.net/wp-content/uploads/2020/11/Ashok-Leyland-Logo.png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>
-                    Some representative placeholder content for the third slide.
-                  </p>
-                </div>
+                <img src={img1} class="d-block w-100" alt="..." />
               </div>
             </div>
             <button
@@ -103,17 +82,22 @@ const Services = () => {
           </div>
         </div>
         <div className="col-lg-5 col-sm-12">
-          <h3>Our Services</h3>
+          <h3>Impact on the future</h3>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model
+            Blockchain technology has the potential to revolutionize the supply
+            chain industry by providing greater transparency, efficiency, and
+            security. Some of the ways in which blockchain can impact the supply
+            chain: <span className="makeItGreen">Improved Transparency</span>,
+            <span className="makeItGreen">Enhanced Efficiency</span>,
+            <span className="makeItGreen">Increased Security</span>,
+            <span className="makeItGreen">Improved Traceability</span>,
+            <span className="makeItGreen">Better Collaboration.</span>
+            Overall, the impact of blockchain on the supply chain has the
+            potential to be transformative, with benefits including increased
+            efficiency, transparency, security, and collaboration. However,
+            implementing blockchain technology can be complex and requires
+            careful planning and collaboration among all parties involved in the
+            supply chain.
           </p>
         </div>
       </div>

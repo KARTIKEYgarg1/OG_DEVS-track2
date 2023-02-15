@@ -1,22 +1,23 @@
 import React from "react";
 import { SiBlockchaindotcom } from "react-icons/si";
 import { FaFileContract, FaConnectdevelop } from "react-icons/fa";
-
+import landing from "./assets/landing.gif";
 export const Landing = () => {
   return (
     <div className="container-fluid">
       <div class="row" style={{ minHeight: "100vh" }}>
         <div class="col-lg-5 col-md-6 p-5">
           <div className="d-flex justify-content-center align-self-center flex-column h-100">
-            <h2>“Koi Manzil Door Nahin.”</h2>
+            <h2>“Connecting blocks for a secure future”</h2>
             <p style={{ textAlign: "justify" }}>
-              Ashok Leyland has been the mobility solution provider for
-              transporting people and goods to their destinations, ensuring a
-              reliable ride, since 1948 from manufacturing India’s first double
-              decker bus to creating the first hybrid-electric vehicle in the
-              country. Thus the Ashok Leyland brand believes that there are
-              destinations (Manzil) still to be conquered and more dreams to be
-              achieved for all its stakeholders and for the company itself.
+              Welcome to our website, where we provide you insights on effective
+              supply chain management strategies. Supply chain management is a
+              critical component of any business, as it involves the
+              coordination and management of all activities involved in the
+              production and delivery of goods and services. At our website, we
+              offer valuable resources and guidance to help businesses optimize
+              their supply chain operations and achieve their goals in today's
+              competitive marketplace.
             </p>
             <div class="d-flex pt-5 pb-3" style={{ overflow: "hidden" }}>
               <input
@@ -48,10 +49,9 @@ export const Landing = () => {
           </div>
         </div>
         <div class="col-lg-7 col-md-6 ">
-          <img
-            src="https://thumbs.dreamstime.com/b/truck-abstract-silhouette-white-background-line-art-view-side-223407960.jpg"
-            className="img-fluid"
-          ></img>
+          <center>
+            <img src={landing} className="img-fluid"></img>
+          </center>
         </div>
       </div>
     </div>
