@@ -1,8 +1,10 @@
 import React from "react";
-import { GiPlatform } from "react-icons/gi";
+import { GiTechnoHeart, GiPlatform } from "react-icons/gi";
+import { FiLayers } from "react-icons/fi";
+import { CiBoxes } from "react-icons/ci";
 const Services = () => {
   return (
-    <div className="container-fluid p-2">
+    <div className="container-fluid p-2" id="services">
       <div className="row">
         <div className="col-lg-7 col-sm-12">
           <div
@@ -35,7 +37,7 @@ const Services = () => {
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+                  src="https://www.deccanherald.com/sites/dh/files/articleimages/2021/02/01/download-945981-1612165441.png"
                   class="d-block w-100"
                   alt="..."
                 />
@@ -48,7 +50,7 @@ const Services = () => {
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+                  src="https://5.imimg.com/data5/JS/BG/NE/SELLER-7700072/leyland-spares-500x500.png"
                   class="d-block w-100"
                   alt="..."
                 />
@@ -62,7 +64,7 @@ const Services = () => {
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+                  src="https://1000logos.net/wp-content/uploads/2020/11/Ashok-Leyland-Logo.png"
                   class="d-block w-100"
                   alt="..."
                 />
@@ -119,84 +121,50 @@ const Services = () => {
         <h3>What we serve</h3>
         <div className="row">
           <div className="col-lg-6 row g-3">
-            <div className="col-2 fs-2">
-              <GiPlatform />
+            <div className="col-2 fs-1">
+              <FiLayers />
             </div>
             <div className="col-10">
               <h5>Platform</h5>
               <p>
-                Incubation of 20+ best-in-class blockchain platforms and
-                solutions through a combination of in-house and partner
-                platforms
+                Integrating blockchain platforms / services into client’s
+                applications and conducting workshops for identifying the pain
+                points for end-to-end deployments
               </p>
             </div>
           </div>
           <div className="col-lg-6 row g-3">
-            <div className="col-2 fs-2">
-              <GiPlatform />
+            <div className="col-2 fs-1">
+              <CiBoxes />
             </div>
             <div className="col-10">
               <h5>Blockchain Marketplace</h5>
-              <p>
-                Incubation of 20+ best-in-class blockchain platforms and
-                solutions through a combination of in-house and partner
-                platforms
-              </p>
+              <p>To enable the implementation of blockchain smart contracts</p>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-6 row g-3">
-            <div className="col-2 fs-2">
-              <GiPlatform />
+            <div className="col-2 fs-1">
+              <GiTechnoHeart />
             </div>
             <div className="col-10">
               <h5>IOT</h5>
               <p>
-                Incubation of 20+ best-in-class blockchain platforms and
-                solutions through a combination of in-house and partner
-                platforms
+                Enabling blockchain innovation in organizations using passive
+                RFID to improve tracability and authenticity of product
               </p>
             </div>
           </div>
           <div className="col-lg-6 row g-3">
-            <div className="col-2 fs-2">
+            <div className="col-2 fs-1">
               <GiPlatform />
             </div>
             <div className="col-10">
-              <h5>Tracability</h5>
+              <h5>Tracability with Authenticity</h5>
               <p>
-                Incubation of 20+ best-in-class blockchain platforms and
-                solutions through a combination of in-house and partner
-                platforms
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-6 row g-3">
-            <div className="col-2 fs-2">
-              <GiPlatform />
-            </div>
-            <div className="col-10">
-              <h5>Transparency</h5>
-              <p>
-                Incubation of 20+ best-in-class blockchain platforms and
-                solutions through a combination of in-house and partner
-                platforms
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-6 row g-3">
-            <div className="col-2 fs-2">
-              <GiPlatform />
-            </div>
-            <div className="col-10">
-              <h5>Authentication</h5>
-              <p>
-                Incubation of 20+ best-in-class blockchain platforms and
-                solutions through a combination of in-house and partner
-                platforms
+                Using RFID, inventry levels are scanned at each supplier to
+                check their inventry
               </p>
             </div>
           </div>

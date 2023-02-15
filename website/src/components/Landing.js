@@ -8,26 +8,25 @@ export const Landing = () => {
       <div class="row" style={{ minHeight: "100vh" }}>
         <div class="col-lg-5 col-md-6 p-5">
           <div className="d-flex justify-content-center align-self-center flex-column h-100">
-            <h2>LETS GROW IT</h2>
+            <h2>“Koi Manzil Door Nahin.”</h2>
             <p style={{ textAlign: "justify" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing
+              Ashok Leyland has been the mobility solution provider for
+              transporting people and goods to their destinations, ensuring a
+              reliable ride, since 1948 from manufacturing India’s first double
+              decker bus to creating the first hybrid-electric vehicle in the
+              country. Thus the Ashok Leyland brand believes that there are
+              destinations (Manzil) still to be conquered and more dreams to be
+              achieved for all its stakeholders and for the company itself.
             </p>
-            <div class="d-flex pt-5 pb-3">
+            <div class="d-flex pt-5 pb-3" style={{ overflow: "hidden" }}>
               <input
-                type="text"
+                type="email"
                 class="form-control h-100 w-75"
-                placeholder="First name"
-                aria-label="First name"
+                placeholder="Email"
+                aria-label="email"
               />
               <button className="btn btn-success w-25 text-nowrap">
-                Contact me
+                Connect
               </button>
             </div>
             <div class="container mt-5">

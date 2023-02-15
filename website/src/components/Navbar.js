@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./assets/logo.png";
 export const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light p-3">
+    <nav class="navbar navbar-expand-lg navbar-light p-3" id="home">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <div class="container">
@@ -26,24 +26,26 @@ export const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a class="nav-link active" aria-current="page" href="#home">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Features
+              <a class="nav-link" href="#services">
+                Services
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Pricing
+              <a class="nav-link" href="#footer">
+                Contact
               </a>
             </li>
           </ul>
           <div>
-            <span>WOW</span>
-            <button className="btn btn-dark ms-3">Login</button>
+            <span>Ashok Leyland</span>
+            <a href="#footer">
+              <button className="btn btn-dark ms-3">Login</button>
+            </a>
           </div>
         </div>
       </div>

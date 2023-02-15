@@ -16,7 +16,7 @@ export const Know = () => {
           </a>
         </div>
         <div className="col-md-3 col-sm-4" style={{ overflow: "hidden" }}>
-          <a href="https://aws.amazon.com/blockchain/blockchain-for-supply-chain-track-and-trace/#:~:text=With%20blockchain%2C%20supply%20chain%20companies,at%20any%20point%20in%20time.">
+          <a href="https://www.detego.com/retail_insights_en/retail-en/rfid_supply_chain/#:~:text=How%20is%20RFID%20used%20in,finally%20sent%20out%20to%20stores.">
             <img
               className="img-thumbnail"
               src="https://cdn.mikroe.com/knowlegebase/uploads/2016/11/04175029/rfid.jpg"

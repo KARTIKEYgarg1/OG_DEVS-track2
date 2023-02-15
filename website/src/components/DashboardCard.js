@@ -10,8 +10,8 @@ const DashboardCard = () => {
         <div className="col-9 text-light">Delivery today</div>
       </div>
       <div className="text-light p-5">
-        it over 2000 years old. Richard McClintock, a Latin professor at
-        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Customers dont measure on how hard you tried, they measure you on what
+        you deliver
       </div>
     </div>
   );

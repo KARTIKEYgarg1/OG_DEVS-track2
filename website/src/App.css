@@ -25,7 +25,7 @@ a:hover img {
   background-color: var(--base);
   width: 100%;
   padding: 50px;
-  height: 40vh;
+  height: 30vh;
   border-radius: 50px;
 }
 .dashboard-card span {
