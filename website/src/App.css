@@ -26,7 +26,12 @@ a:hover img {
   width: 100%;
   padding: 50px;
   height: 30vh;
+  overflow: hidden;
   border-radius: 50px;
+}
+.dashboard-card .text-end,
+.navbar-brand {
+  overflow-y: hidden;
 }
 .dashboard-card span {
   background: white;

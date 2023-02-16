@@ -42,7 +42,6 @@ export const Navbar = () => {
             </li>
           </ul>
           <div>
-            <span>Ashok Leyland</span>
             <a href="#footer">
               <button className="btn btn-dark ms-3">Login</button>
             </a>
