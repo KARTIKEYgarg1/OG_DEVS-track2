@@ -8,7 +8,9 @@ export const Landing = () => {
       <div class="row" style={{ minHeight: "100vh" }}>
         <div class="col-lg-5 col-md-6 p-5">
           <div className="d-flex justify-content-center align-self-center flex-column h-100">
-            <h2>“Connecting blocks for a secure future”</h2>
+            <h2 className="text-success">
+              “Connecting blocks for a secure future”
+            </h2>
             <p style={{ textAlign: "justify" }}>
               Welcome to our website, where we provide you insights on effective
               supply chain management strategies. Supply chain management is a
